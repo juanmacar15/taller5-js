@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 
 <head>
     <meta charset="UTF-8">
@@ -12,18 +12,23 @@
 <body>
 
     <div class="contenedor">
-        <h2>Suma de numeros</h2>
-        <h3>ingrese los numeros a sumar</h3>
-
+        <h1>Servicio De Compras</h1>
         <form id="form" class="form">
-            <input id="dato" class="input-dato" type="text" placeholder="ingrese la numeros a sumar">
+            <h4>ingrese el precio de las compras:</h4>
+            <input id="dato" class="input-dato" type="text" placeholder="precio de la compra...">
+            <div class="informacion">
+            </div>
+
+            <div class="informacion" id="informacion">
+                <h4><a href="index.html">cerrar</a></h4>
+                <h2>Recibo</h2>
+                <h3 id="res"></h3>
+            </div>
 
             <div class="btns">
-                <button class="btn-submit" type="submit">sumar</button>
-                <input class="btn-submit" type="submit" value="Limpiar" name="Limpiar">
+                <button id="boton" class="btn-pagar" type="submit">PAGAR</button>
             </div>
         </form>
-        <h4 id="res">suma: </h4>
     </div>
 
     <script src="main.js"></script>

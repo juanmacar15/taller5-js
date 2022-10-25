@@ -28,18 +28,49 @@ body{
     justify-content: center;
 }
 
-.input-dato, .btn-submit{
-    margin: 5px;
+
+
+.form .btn-pagar{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.2rem;
     border: 1px solid #ffb703;
     border-radius: 4px;
 }
 
-.input-dato{
-    padding: 5px;
+.form .input-dato{
+    margin-bottom: 10px;
+    border: 1px solid #ffb703;
+    border-radius: 4px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1.5rem;
     background-color:#d1a129;
     outline: none;
 }
 
-.btn-submit:hover{
+.btn-pagar:hover{
     background-color:#e36414;
+}
+
+.btn-limpiar:hover{
+    background-color:#14e330;
+}
+
+
+.form .informacion{
+    display: none;
+    width: 100%;
+    background: #d1a129;
+
+}
+
+.informacion h2{
+    text-align: center;
+    margin: 0;
+}
+
+.informacion h4{
+    margin: 0 10px;
+    text-align: right;
 }
